@@ -30,7 +30,6 @@ function Navbar() {
 				</button>
 				<button className="nav-bars" onClick={()=> dispatch({type: "CHANGE_THEME"})}>Change theme</button>
 			</nav>
-			
 		</header>
 	);
 }
