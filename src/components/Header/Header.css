@@ -2,9 +2,11 @@
 .blog-section {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.34);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+}
+hr{
+  width: 100%;
 }
 .container {
   width: 1220px;

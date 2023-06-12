@@ -18,17 +18,20 @@ function Navbar() {
 	return (
 		<header>
 			<h3>LOGO</h3>
-			<nav ref={navRef}>
-				<a href="/#">Blog</a>
-				<a href="/#">Project</a>
-				<a href="/#">About</a>
-				<a href="/#">Newsletter</a>
+			<nav  ref={navRef}>
+				<a style={{color: `${state.theme === true ? "#fff" : "#222"}`}} href="/#">Blog</a>
+				<a style={{color: `${state.theme === true ? "#fff" : "#222"}`}} href="/#">Project</a>
+				<a style={{color: `${state.theme === true ? "#fff" : "#222"}`}} href="/#">About</a>
+				<a style={{color: `${state.theme === true ? "#fff" : "#222"}`}} href="/#">Newsletter</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
-				<button className="nav-bars" onClick={()=> dispatch({type: "CHANGE_THEME"})}>Change theme</button>
+				<label onClick={()=> dispatch({type: "CHANGE_THEME"})} class="nav-switch">
+  			<	input className="nav-input" type="checkbox" checked/>
+  				<span class="nav-slider nav-round"></span>
+				</label>
 			</nav>
 		</header>
 	);
