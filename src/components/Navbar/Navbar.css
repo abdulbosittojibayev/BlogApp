@@ -7,21 +7,14 @@
 	font-family: "Titillium Web", sans-serif;
 }
 
-:root {
-	--mainColor: #29335c;
-	--mainColorLight: #5767aa;
-	--secondaryColor: #db2b39;
-	--textColor: #eee;
-}
-
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	padding: 0 2rem;
-	background-color: var(--mainColor);
-	color: var(--textColor);
+	padding: 0 150px;
+	background-color: #ffff;
+	color: #1A1A1A;
 }
 
 nav a {

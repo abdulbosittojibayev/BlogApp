@@ -15,21 +15,17 @@ function Navbar() {
 		<header>
 			<h3>LOGO</h3>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
 				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#">Project</a>
+				<a href="/#">About</a>
+				<a href="/#">Newsletter</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
 			</nav>
-			<button
-				className="nav-btn"
-				onClick={showNavbar}>
-				<FaBars />
-			</button>
+			
 		</header>
 	);
 }
