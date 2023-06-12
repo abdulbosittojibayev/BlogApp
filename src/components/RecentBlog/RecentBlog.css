@@ -1,0 +1,7 @@
+.recent__blog{
+    display: flex;
+    
+}
+.recent__blog h3{
+    padding-top: 60px;
+}
