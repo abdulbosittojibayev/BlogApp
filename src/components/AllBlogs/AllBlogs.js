@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AllBlogs() {
+function AllBlogs() {
     return (
         <div className='all-blog'>
             <h1 className='all-blog-title'>
@@ -12,3 +12,4 @@ export default function AllBlogs() {
         </div>
     )
 }
+export default AllBlogs;
