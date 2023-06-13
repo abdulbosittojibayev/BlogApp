@@ -15,3 +15,7 @@ body {
   display: flex;  
   flex-direction: column;
 }
+.container{
+  width: 1400px;
+  margin: auto;
+}

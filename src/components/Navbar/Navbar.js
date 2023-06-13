@@ -16,7 +16,7 @@ function Navbar() {
 	};
 
 	return (
-		<header>
+		<header className="container">
 			<h3>LOGO</h3>
 			<nav  ref={navRef}>
 				<a style={{color: `${state.theme === true ? "#fff" : "#222"}`}} href="/#">Blog</a>
