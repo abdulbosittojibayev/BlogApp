@@ -16,7 +16,7 @@ function Navbar() {
 	};
 
 	return (
-		<header>
+		<header className="container">
 			<h3>LOGO</h3>
 			<nav  ref={navRef}>
 				<a style={{color: `${state.theme === true ? "#fff" : "#222"}`}} href="/#">Blog</a>
@@ -30,7 +30,7 @@ function Navbar() {
 				</button>
 				<div class="toggle-switch">
           <label class="switch-label"  onChange={()=> dispatch({type: "CHANGE_THEME"})}>
-            <input type="checkbox" class="checkbox" />
+            	<input type="checkbox" class="checkbox" />
             <span class="slider"></span>
           </label>
         </div>

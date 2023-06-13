@@ -1,7 +1,65 @@
-.recent__blog{
-    display: flex;
-    
+.recent__blog h3 {
+  padding: 60px 0 30px 0;
 }
-.recent__blog h3{
-    padding-top: 60px;
+.recent__blog {
+  width: 100%;
+  height: auto;
+}
+.recent__card {
+  width: 550px;
+}
+.recent__card img {
+  width: 592px;
+  height: 228px;
+}
+.recent__card a {
+  text-decoration: none;
+}
+.recent__card h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.recent__collection {
+  display: flex;
+  list-style: none;
+}
+.recent__coll__item {
+  font-style: 14px;
+  padding: 3px 5px;
+  border-radius: 16px;
+}
+.recent__coll__item:nth-child(1) {
+  color: #6941c6;
+  background: #f9f5ff;
+  margin: 5px 10px 5px 0;
+}
+.recent__coll__item:nth-child(2) {
+  color: #3538cd;
+  background: #eef4ff;
+  margin: 5px 10px 5px 0;
+}
+.recent__coll__item:nth-child(3) {
+  color: #c11574;
+  background: #fdf2fa;
+  margin: 5px 10px 5px 0;
+}
+.recent__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.recent__carts {
+ 
+}
+.recent__cart {
+  display: flex;
+  
+}
+.recent__cart__img {
+  width: 50%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.recent__cart__img img {
+  width: 100%;
 }
