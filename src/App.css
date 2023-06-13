@@ -1,7 +1,12 @@
 .app{
   transition: .3s;
 }
+nav a {
+  margin: 0 1rem;
+	text-decoration: none;
+}
+
 .dark{
-  background: #222;
-  color: #ddd;
+  background: #222 !important;
+  color: #fff !important;
 }

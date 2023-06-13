@@ -16,19 +16,8 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 150px;
-	background-color: #ffff;
-	color: #1A1A1A;
 }
 
-nav a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: var(--secondaryColor);
-}
 
 header .nav-btn {
 	padding: 5px;
@@ -36,7 +25,6 @@ header .nav-btn {
 	background: transparent;
 	border: none;
 	outline: none;
-	color: var(--textColor);
 	visibility: hidden;
 	opacity: 0;
 	font-size: 1.8rem;
@@ -65,7 +53,6 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--mainColor);
 		transition: 1s;
 	}
 
