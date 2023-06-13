@@ -36,13 +36,13 @@ function RecentBlog() {
                 <a href="">Olivia Rhye • 1 Jan 2023</a>
                 <h2>UX review presentations</h2>
                 <p>
-                  How do you create compelling presentations that wow your
-                  colleagues and <br /> impress your managers?
+                Linear helps streamline software <br /> projects, sprints, tasks, and
+                  bug <br /> tracking. Here’s how to get...
                 </p>
                 <ul className="recent__collection">
-                  <li className="recent__coll_item">Design</li>
-                  <li className="recent__coll_item">Research</li>
-                  <li className="recent__coll_item">Presentation</li>
+                  <li className="recent__coll__item">Design</li>
+                  <li className="recent__coll__item">Research</li>
+                  <li className="recent__coll__item">Presentation</li>
                 </ul>
               </div>
             </div>
@@ -57,13 +57,13 @@ function RecentBlog() {
                 <a href="">Olivia Rhye • 1 Jan 2023</a>
                 <h2>UX review presentations</h2>
                 <p>
-                  How do you create compelling presentations that wow your
-                  colleagues and <br /> impress your managers?
+                  Linear helps streamline software <br /> projects, sprints, tasks, and
+                  bug <br /> tracking. Here’s how to get...
                 </p>
                 <ul className="recent__collection">
-                  <li className="recent__coll_item">Design</li>
-                  <li className="recent__coll_item">Research</li>
-                  <li className="recent__coll_item">Presentation</li>
+                  <li className="recent__coll__item">Design</li>
+                  <li className="recent__coll__item">Research</li>
+                  <li className="recent__coll__item">Presentation</li>
                 </ul>
               </div>
             </div>
