@@ -1,9 +1,13 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+import {useStateValue} from "../../context/reducer"
+
 
 function Navbar() {
 	const navRef = useRef();
+  const [state, dispatch] = useStateValue()
+	
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
@@ -24,6 +28,7 @@ function Navbar() {
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
+				<button className="nav-bars" onClick={()=> dispatch({type: "CHANGE_THEME"})}>Change theme</button>
 			</nav>
 			
 		</header>

@@ -1,0 +1,7 @@
+.app{
+  transition: .3s;
+}
+.dark{
+  background: #222;
+  color: #ddd;
+}
