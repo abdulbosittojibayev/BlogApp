@@ -28,10 +28,10 @@ function Navbar() {
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
-				<div class="toggle-switch">
-          <label class="switch-label"  onChange={()=> dispatch({type: "CHANGE_THEME"})}>
-            <input type="checkbox" class="checkbox" />
-            <span class="slider"></span>
+				<div className="toggle-switch">
+          <label className="switch-label"  onChange={()=> dispatch({type: "CHANGE_THEME"})}>
+            <input type="checkbox" className="checkbox" />
+            <span className="slider"></span>
           </label>
         </div>
 			</nav>
