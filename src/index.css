@@ -5,17 +5,7 @@
   box-sizing: border-box;
   font-family: "Titillium Web", sans-serif;
 }
-html,
-body {
+html, body {
+  width: 100vw;
   overflow-x: hidden;
-}
-.app {
-  width: 100%;
-  min-height: auto;
-  display: flex;  
-  flex-direction: column;
-}
-.container{
-  width: 1400px;
-  margin: auto;
 }
