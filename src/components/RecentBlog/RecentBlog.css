@@ -10,7 +10,7 @@
 }
 .recent__cards {
   width: 100vw;
-  min-height: 100vh;
+  min-height: 55vh;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
